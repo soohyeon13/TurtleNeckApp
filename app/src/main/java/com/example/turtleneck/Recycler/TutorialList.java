@@ -1,17 +1,15 @@
 package com.example.turtleneck.Recycler;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TutorialList {
-    private String id;
+    public static List<String> tutorialList() {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("test");
+        list.add("test");
+        list.add("test");
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public TutorialList(String id) {
-        this.id = id;
+        return list;
     }
 }
